@@ -1,0 +1,288 @@
+{
+  "me": {
+    "bio": "I am a tech enthusiast, entrepreneur, and blogger with over a decade of experience in various IT domains. My expertise includes full-stack development, web and mobile (hybrid) applications, and Linux system administration, and DevOps.",
+    "name": "Mahdi Hezaveh"
+  },
+  "links": [
+    {
+      "icon": "faLink",
+      "url": "https://hazaveh.net",
+      "name": "Website"
+    },
+    {
+      "icon": "faLinkedin",
+      "url": "https://linkedin.com/in/mahdi-hazaveh",
+      "name": "LinkedIn"
+    },
+    {
+      "icon": "faGithub",
+      "url": "https://github.com/hazaveh",
+      "name": "GitHub"
+    }
+  ],
+  "skills": [
+    {
+      "name": "PHP",
+      "level": 5
+    },
+    {
+      "name": "Laravel",
+      "level": 5
+    },
+    {
+      "name": "Symfony",
+      "level": 5
+    },
+    {
+      "name": "MySQL",
+      "level": 5
+    },
+    {
+      "name": "PostgreSQL",
+      "level": 4
+    },
+    {
+      "name": "JavaScript",
+      "level": 4
+    },
+    {
+      "name": "TypeScript",
+      "level": 4
+    },
+    {
+      "name": "VueJS",
+      "level": 3
+    },
+    {
+      "name": "ReactJS",
+      "level": 3
+    },
+    {
+      "name": "TailwindCSS",
+      "level": 4
+    },
+    {
+      "name": "Linux",
+      "level": 4
+    },
+    {
+      "name": "Docker",
+      "level": 5
+    }
+  ],
+  "secondarySkills": [
+    "Git",
+    "Python",
+    "Ruby",
+    "Slim Framework",
+    "PestPHP",
+    "PHPUnit",
+    "PHPStan",
+    "Cordova",
+    "Framework7",
+    "Ionic Framework",
+    "pfSense",
+    "Sqlite",
+    "AWS",
+    "Google Cloud Platform",
+    "Microsoft Azure",
+    "ElasticSearch",
+    "Redis",
+    "RabitMQ",
+    "Apache Kafka",
+    "Ansible",
+    "VMWare",
+    "Jenkins",
+    "Github Actions",
+    "Metasploit Framework",
+    "nginx",
+    "Caddy",
+    "Portainer",
+    "Grafana",
+    "DataDog",
+    "Kibana",
+    "Bootstrap",
+    "jQuery",
+    ""
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": 5
+    },
+    {
+      "name": "Persian",
+      "level": 5
+    },
+    {
+      "name": "German",
+      "level": 2
+    }
+  ],
+  "projects": [
+    {
+      "name": "Linkinize: Ultimate Bookmark Manager for Teams",
+      "description": "Linkinize is a powerful bookmark management tool designed specifically for teams and businesses. It allows users to easily share and collaborate on bookmarks, making it faster and more efficient to find the links they need. With features like instant search, multi-workspace access, and customizable tags, Linkinize helps teams stay organized and productive. It also offers encryption for added security and integrates with tools like Confluence and SAML for seamless user management.",
+      "url": "https://linkinize.com",
+      "date": "2023"
+    },
+    {
+      "name": "Post-Rock Nation",
+      "description": "Postrock Nation is a platform dedicated to the exploration and celebration of post-rock music. It serves as a comprehensive directory and community for post-rock enthusiasts, featuring a vast database of bands, albums, and tracks. Users can discover new music, explore playlists, and engage with the community to share their thoughts and favorite post-rock tunes. There over 8000 Post-Rock tracks, albums and artists live on the platform.",
+      "url": "https://postrocknation.com",
+      "date": "2023"
+    },
+    {
+      "name": "Kament.io",
+      "description": "Kament.iois a browser extension designed to enable comments on YouTube videos where the commenting feature has been disabled by the video owner or YouTube. The philosophy behind Kament.iois to promote freedom of speech by allowing users to engage in discussions on public content. The extension is available for both Chrome and Firefox browsers.",
+      "url": "https://kament.io",
+      "date": "2022"
+    },
+    {
+      "name": "Random Member",
+      "description": "Free to use Slack application to randomly pick a member of a channel.",
+      "url": "https://random-member.empinet.info",
+      "date": "2021"
+    },
+    {
+      "name": "FollowNinja.com: Twitter Follower Exchange Platform",
+      "description": "Fully Automatic Follower Exchange Platform, where users can boost their followers number daily.",
+      "url": null,
+      "date": "2020"
+    },
+    {
+      "name": "GoTow: Smart Towing Management System",
+      "description": "GoTow is an all-in-one towing management solution which handles entire operations of a towing company in a single web application solution. It consists of components for Admin, Billing, Customer, Customer Support, and Job Management. GoTow is being used by known towing services providers in Malaysia. GoTow also comes with a companion Android App which connects mechanics & drivers to their employer towing company. They receive jobs directly on their mobile phone.",
+      "url": null,
+      "date": "2018"
+    },
+    {
+      "name": "NaiOchi - Voice Enabled Dating Application",
+      "description": "NaiOchi was a mobile dating application that aimed to embrace the power of voice recognition in mobile dating.",
+      "url": "http://NaiOchi.com",
+      "date": "2018"
+    },
+    {
+      "name": "cloudflare-search-replace",
+      "description": "A tool to quickly change DNS servers for thousands of hosts within a Cloudflare account, leveraging Cloudflare's API. Open-sourced on GitHub.",
+      "url": null,
+      "date": "2017"
+    },
+    {
+      "name": "mySQLToes",
+      "description": "A tool created to index more than 13 million rows of MySQL data into Elasticsearch within a short period of time. Published on GitHub but maintained only for Elasticsearch 2.",
+      "url": null,
+      "date": "2016"
+    },
+    {
+      "name": "APIIT Social",
+      "description": "A social network based on BuddyPress, built exclusively for Asia Pacific University Students. Integrated with the university's existing systems to bring attendance and timetable into the platform. Served over 16k page visits within 3 days of launch but discontinued due to lack of support from the university's technical team.",
+      "url": null,
+      "date": "2011"
+    }
+  ],
+  "experience": [
+    {
+      "employer": "Zolar GmbH",
+      "title": "Senior Software Engineer",
+      "startDate": "2023 Nov",
+      "endDate": "2024 Oct",
+      "stack": "PHP, Symfony, PEST, MySQL, Amazon ECS, Amazon Cloudformation, AWS Lambda, CommerceTools",
+      "keypoints": [
+        "Implemented headless Ecommerce solution for Solar and Green Energy products",
+        "Worked on implementation and architecture of configurable products integration with CommerceTools",
+        "Collaborate closely with Product Owners and Stake Holders to develop business oriented solutions",
+        "Maintained and Improved CI/CD pipeline for our headless-ecommerce application",
+        "Improved code quality and developer experience by introducing Code Quality Tools such as architectural tests, static analysers"
+      ]
+    },
+    {
+      "employer": "METRO Markets GmbH",
+      "title": "Engineering Team Lead",
+      "startDate": "2022",
+      "endDate": "Current",
+      "stack": "PHP, Laravel, Pubsub, Freshdesk, Genesys Cloud, VueJs, Kubernetes",
+      "keypoints": [
+        "Develop Highly Scalable Laravel Microservices to process realtime customer support enquiries and provide data enrichment",
+        "Use of agile methodologies and best practices to deliver high-quality software in a fast-paced environment",
+        "Mentored and coached junior engineers, conducted code reviews and performance evaluations, and fostered a culture of continuous learning and improvement",
+        "Collaborated with product managers, designers, and stakeholders to define the requirements and scope of the customer care tooling projects",
+        "Implemented integrations with IVR solutions for real time customer identification",
+        "Implemented/Maintained Microservices providing communications between customers and sellers in Marketplace environment."
+      ]
+    },
+    {
+      "employer": "METRO Markets GmbH",
+      "title": "Software Engineer",
+      "startDate": "2019",
+      "endDate": "2022",
+      "stack": "PHP, Symfony, Kafka, ElasticSearch, Mongo, MySQL, Docker, GCP, Java, Redis, Pub-sub",
+      "keypoints": [
+        "Develop & Maintain Symfony based Microservices",
+        "Integrate METRO AG OAuth SSO in the Online Store",
+        "Working with Checkout and Payment related Micro Services",
+        "Implement 3D Secure Checkout Flow",
+        "Research and experience with Apache Kafka & Stream Processing Apps for Realtime Data Processing & ETL."
+      ]
+    },
+    {
+      "employer": "AGA Touch Sdn. Bhd.",
+      "title": "Head of Infrastructure & Security",
+      "startDate": "2015",
+      "endDate": "2019",
+      "stack": "PHP, Laravel, Vue, HTML & CSS, ElasticSearch, Mongo, MySQL, Docker, VMWare",
+      "keypoints": [
+        "Lead Architect & Backend Development of Multipurpose Single Sign On Service \"Senintel\".",
+        "Develop Rest API's for Mobile Clients & Desktop Applications",
+        "Backend Development for Data Collection & Collaboration Software",
+        "Develop serveral Data Crawler solutions (Web Crawlers/API Crawlers)",
+        "Architect & Configure Networking of our Infrastructure",
+        "Deploy & Maintain Elasticsearch Instances for Production on Docker",
+        "Deploy & Maintain MongoDB/NEO4J Production Instances",
+        "Deploy & Configure Phabricator"
+      ]
+    },
+    {
+      "employer": "Empinet Solutions Sdn. Bhd.",
+      "title": "Co-Founder",
+      "startDate": "2015",
+      "endDate": "Current",
+      "stack": "PHP, Laravel, Vue, Codrova, Elasticsearch, Docker, Jenkins, MongoDB, Redis, MySQL",
+      "keypoints": [
+        "Design & Develop and Deploy Customized Software Solutions to Clients",
+        "Hybrid Mobile (Android/iOS) Application Development",
+        "Provide Server Configuration & Optimization Services",
+        "Provide Cloud Hosting Services to Clients",
+        "Provide Cloud/Web Migration Solutions such as Application Migration, Email Migration",
+        "Configure Domain Controller & Network Configuration to Clients",
+        "Recover Compromised Websites, Follow the attack traces, Find the Vulnerable Service & Scripts"
+      ]
+    },
+    {
+      "employer": "MyEz Life Sdn. Bhd.",
+      "title": "Web Administrator",
+      "startDate": "2013",
+      "endDate": null,
+      "stack": "PHP, CodeIgniter, HTML & CSS, JavaScript, Bootstrap, Wordpress",
+      "keypoints": [
+        "Develop Student Portal For Targeted Universities",
+        "Configure & Maintain Company's Webservers & Web Services",
+        "Design & Develop Rest API to integrate with Embedded Devices"
+      ]
+    },
+    {
+      "employer": "Streamxhost",
+      "title": "Sysadmin",
+      "startDate": "2011",
+      "endDate": null,
+      "stack": "PHP, CentOS, HTML, Bash, Perl",
+      "keypoints": [
+        "Setup & Configuration of Linux Hosting Servers",
+        "Deploy & Maintain Xen based Virtual Private Servers",
+        "Deploy & Maintain VMWare Esxi Based Virtual Servers",
+        "Setup & Configure ConfigServer Firewall (CSF)",
+        "Do Technical Support (Help Desk) For Hosting Services Clients"
+      ]
+    }
+  ]
+}

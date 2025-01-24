@@ -1,13 +1,16 @@
 {
   "me": {
     "bio": "I am a tech enthusiast, entrepreneur, and blogger with over a decade of experience in various IT domains. My expertise includes full-stack development, web and mobile (hybrid) applications, and Linux system administration, and DevOps.",
-    "name": "Mahdi Hezaveh"
+    "name": "Mahdi Hezaveh",
+    "title": "Engineering Team Lead / Senior Software Engineer",
+    "image": "https://i0.wp.com/hazaveh.net/wp-content/uploads/cropped-f6528d59-9176-4978-83a1-d637b6c36d57.jpg?w=190&ssl=1",
+    "philosophy": "I am driven by a strong desire for growth and excellence. With a curious and creative mindset, I tackle every task, always seeking innovative solutions. I am proactive in taking initiative and continuously learning, embracing diverse perspectives and methodologies. When necessary, I even develop my own frameworks to achieve the best results. I am not afraid to think outside the books!"
   },
   "links": [
     {
       "icon": "faLink",
       "url": "https://hazaveh.net",
-      "name": "Website"
+      "name": "Blog"
     },
     {
       "icon": "faLinkedin",
@@ -34,12 +37,8 @@
       "level": 5
     },
     {
-      "name": "MySQL",
+      "name": "SQL",
       "level": 5
-    },
-    {
-      "name": "PostgreSQL",
-      "level": 4
     },
     {
       "name": "JavaScript",
@@ -102,8 +101,7 @@
     "DataDog",
     "Kibana",
     "Bootstrap",
-    "jQuery",
-    ""
+    "jQuery"
   ],
   "languages": [
     {

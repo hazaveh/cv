@@ -13,15 +13,15 @@ export default function Skill({ level, name }: Props) {
       <FontAwesomeIcon
         key={i}
         icon={faStar}
-        size="sm"
-        className="text-indigo-800"
+        size="xs"
+        className="text-cyan-600"
       />
     );
   }
   return (
     <>
       <div className="flex justify-between">
-        <span className="tracking-wider text-sm">{name}</span>
+        <span className="tracking-wider text-sm font-medium">{name}</span>
         <span>{stars}</span>
       </div>
     </>

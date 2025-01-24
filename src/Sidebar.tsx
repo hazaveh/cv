@@ -4,6 +4,7 @@ interface Props {
   skills: Skill[];
   secondarySkills: string[];
   languages: Skill[];
+  philosophy: string;
 }
 
 interface Skill {
@@ -11,10 +12,15 @@ interface Skill {
   level: number;
 }
 
-export default function Sidebar({ skills, languages, secondarySkills }: Props) {
+export default function Sidebar({
+  skills,
+  languages,
+  secondarySkills,
+  philosophy,
+}: Props) {
   return (
     <>
-      <h2 className="text-2xl font-semibold tracking-wide">Skills</h2>
+      <h1 className="text-2xl">Skills</h1>
       <ul>
         {skills.map(({ name, level }: Skill, index) => (
           <li key={index}>
@@ -22,35 +28,32 @@ export default function Sidebar({ skills, languages, secondarySkills }: Props) {
           </li>
         ))}
       </ul>
-      <h2 className="text-2xl font-semibold tracking-wide">Also Used</h2>
+      <h1 className="text-2xl">Also Used</h1>
       <p>I also have experience with:</p>
       <div className="flex gap-x-1 gap-y-1 flex-wrap text-xs">
         {secondarySkills.map((skill: string, index: number) => (
           <span
-            className="bg-indigo-600 text-white px-1 py-0.5 rounded"
+            className="border-cyan-600 border-2 font-semibold text-cyan-800 px-1 py-0.5 rounded"
             key={index}
           >
             {skill}
           </span>
         ))}
       </div>
-      <h2 className="text-2xl font-semibold tracking-wide">Languages</h2>
-      <ul>
-        {languages.map(({ name, level }: Skill, index) => (
-          <li key={index}>
-            <Skill name={name} level={level} />
-          </li>
-        ))}
-      </ul>
-      <h2 className="text-2xl font-semibold tracking-wide">Wrok Philosopy</h2>
-      <p className="text-justify">
-        I am driven by a strong desire for growth and excellence. With a curious
-        and creative mindset, I tackle every task, always seeking innovative
-        solutions. I am proactive in taking initiative and continuously
-        learning, embracing diverse perspectives and methodologies. When
-        necessary, I even develop my own frameworks to achieve the best results.
-        I am not afraid to think outside the books!
-      </p>
+      <div className="break-inside-avoid">
+        <h1 className="text-2xl">Languages</h1>
+        <ul>
+          {languages.map(({ name, level }: Skill, index) => (
+            <li key={index}>
+              <Skill name={name} level={level} />
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="break-inside-avoid">
+        <h1 className="text-2xl">Work Philosopy</h1>
+        <p className="text-justify">{philosophy}</p>
+      </div>
     </>
   );
 }

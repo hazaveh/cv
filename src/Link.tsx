@@ -1,5 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  IconDefinition,
+} from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 interface Props {
@@ -8,7 +12,7 @@ interface Props {
   name: string;
 }
 
-const icons = {
+const icons: { [key: string]: IconDefinition } = {
   faLinkedin: faLinkedin,
   faGithub: faGithub,
   faLink: faLink,

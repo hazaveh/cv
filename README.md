@@ -16,5 +16,5 @@ The page is print friendly with proper breaking points to make sure the printed 
 
 If you wanna read more about stuff I do check my personal website at [hazaveh.net](https://hazaveh.net)
 
-Cheers 🍺
+Cheers 🍺<br>
 Mahdi

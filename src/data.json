@@ -282,5 +282,17 @@
         "Do Technical Support (Help Desk) For Hosting Services Clients"
       ]
     }
+  ],
+  "education": [
+    {
+      "institution": "Asia Pacific University (APU) - Malaysia",
+      "certificate": "Bachelor of Science in Information Technology (Computer Forensics)",
+      "date": "2015"
+    },
+    {
+      "institution": "Staffordshire University (UK)",
+      "certificate": "Bachelor of Science in Information Technology",
+      "date": "2015"
+    }
   ]
 }

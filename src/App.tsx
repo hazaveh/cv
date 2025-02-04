@@ -1,3 +1,4 @@
+import Education from "./Education";
 import Experience from "./Experience";
 import Head from "./Head";
 import Link from "./Link";
@@ -22,6 +23,10 @@ function App() {
           <h1 className="text-4xl">Work Experience</h1>
           {data.experience.map((exp, index) => (
             <Experience key={index} {...exp} />
+          ))}
+          <h1 className="text-4xl">Education</h1>
+          {data.education.map((education, index) => (
+            <Education {...education} key={index} />
           ))}
           <h1 className="text-4xl">Projects</h1>
           {data.projects.map((project, index) => (

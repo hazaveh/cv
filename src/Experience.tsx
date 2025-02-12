@@ -16,15 +16,15 @@ export default function Experience({
   keypoints,
 }: Props) {
   return (
-    <div className="space-y-2 break-inside-avoid">
+    <div className="space-y-2 break-inside-avoid px-2">
       <div className="flex md:flex-row flex-col justify-between">
         <div className="flex gap-x-2 items-center">
-          <h2 className="font-bold text-xl">{employer}</h2>
+          <h2 className="font-bold text-xl tracking-wide">{employer}</h2>
           <h5 className="text-xs text-gray-400">
             {startDate} {endDate !== null && " → " + endDate}
           </h5>
         </div>
-        <span className="italic font-semibold">{title}</span>
+        <span className="md:italic font-semibold">{title}</span>
       </div>
       <p className="tracking-wide font-semibold text-slate-500 text-sm">
         {stack}

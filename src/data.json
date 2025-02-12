@@ -67,6 +67,14 @@
     {
       "name": "Docker",
       "level": 5
+    },
+    {
+      "name": "Filament",
+      "level": 4
+    },
+    {
+      "name": "Livewire",
+      "level": 5
     }
   ],
   "secondarySkills": [

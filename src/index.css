@@ -9,7 +9,9 @@
 }
 
 h1 {
-    font-family: 'Luckiest Guy', cursive;
+    font-family: "DM Serif Text", serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 body {

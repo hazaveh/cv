@@ -20,18 +20,24 @@ function App() {
       </div>
       <div className="flex gap-x-2 flex-col md:flex-row print:flex-row animate__animated animate__zoomIn">
         <div className="md:basis-2/3 print:basis-2/3 space-y-2">
-          <h1 className="text-4xl">Work Experience</h1>
-          {data.experience.map((exp, index) => (
-            <Experience key={index} {...exp} />
-          ))}
-          <h1 className="text-4xl">Education</h1>
-          {data.education.map((education, index) => (
-            <Education {...education} key={index} />
-          ))}
-          <h1 className="text-4xl">Projects</h1>
-          {data.projects.map((project, index) => (
-            <Project key={index} {...project} />
-          ))}
+          <div>
+              <h1 className="text-4xl tracking-wide break-after-avoid">Work Experience</h1>
+              {data.experience.map((exp, index) => (
+                  <Experience key={index} {...exp} />
+              ))}
+          </div>
+          <div>
+              <h1 className="text-4xl tracking-wide break-after-avoid">Education</h1>
+              {data.education.map((education, index) => (
+                  <Education {...education} key={index} />
+              ))}
+          </div>
+          <div>
+              <h1 className="text-4xl tracking-wide break-after-avoid">Projects</h1>
+              {data.projects.map((project, index) => (
+                  <Project key={index} {...project} />
+              ))}
+          </div>
         </div>
         <div className="md:basis-1/3 print:basis-1/3 bg-stone-100 p-2 rounded space-y-2">
           <Sidebar

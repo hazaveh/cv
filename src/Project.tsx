@@ -7,7 +7,7 @@ interface Props {
 
 export default function Project({ name, description, url, date }: Props) {
   return (
-    <div className="break-inside-avoid">
+    <div className="break-inside-avoid px-1">
       <div className="flex justify-between">
         <h2 className="font-semibold text-lg tracking-wide">{name}</h2>
         <span className="text-gray-400 text-xs">{date}</span>

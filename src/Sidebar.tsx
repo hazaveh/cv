@@ -20,7 +20,7 @@ export default function Sidebar({
 }: Props) {
   return (
     <>
-      <h1 className="text-2xl">Skills</h1>
+      <h1 className="text-2xl tracking-wider">Skills</h1>
       <ul>
         {skills.map(({ name, level }: Skill, index) => (
           <li key={index}>
@@ -28,7 +28,7 @@ export default function Sidebar({
           </li>
         ))}
       </ul>
-      <h1 className="text-2xl">Also Used</h1>
+      <h1 className="text-2xl tracking-wider">Also Used</h1>
       <p>I also have experience with:</p>
       <div className="flex gap-x-1 gap-y-1 flex-wrap text-xs">
         {secondarySkills.map((skill: string, index: number) => (
@@ -41,7 +41,7 @@ export default function Sidebar({
         ))}
       </div>
       <div className="break-inside-avoid">
-        <h1 className="text-2xl">Languages</h1>
+        <h1 className="text-2xl tracking-wider">Languages</h1>
         <ul>
           {languages.map(({ name, level }: Skill, index) => (
             <li key={index}>
@@ -51,7 +51,7 @@ export default function Sidebar({
         </ul>
       </div>
       <div className="break-inside-avoid">
-        <h1 className="text-2xl">Work Philosopy</h1>
+        <h1 className="text-2xl tracking-wider">Work Philosopy</h1>
         <p className="text-justify">{philosophy}</p>
       </div>
     </>
